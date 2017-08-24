@@ -35,6 +35,7 @@
         var tag = this
         tag.on('mount', function() {
             tag.wrapHei = window.innerHeight
+            tag.update()
         })
     </script>
 </app>
