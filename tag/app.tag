@@ -7,12 +7,12 @@
     <style>
         .wrapper {
             margin-top: 0px;
-            padding: 25% 5%;
+            padding: 35% 5%;
             width: 100%;
             overflow: hidden;
         }
         .discription {
-            margin: 4em 0 3em;
+            margin: 3em 0 3em;
             padding-left: .2em;
             color: #56FBB7;
             font-size: .875rem;
@@ -26,6 +26,7 @@
                 padding: 0;
             }
             .description {
+                margin: 4em 0 3em;
                 font-size: 1rem;
             }
         }
