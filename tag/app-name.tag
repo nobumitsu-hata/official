@@ -23,9 +23,8 @@
         }
         div {
             color: #56FBB7;
-            font-size: 1.75rem;
+            font-size: 1.25rem;
             font-weight: 400;
-            font-family: 'Ropa Sans';
             letter-spacing: .36em;
             line-height: 1;
             opacity: 0;
@@ -89,7 +88,10 @@
             -webkit-animation-delay: .5s;
             animation-delay: .5s;
         }
-        @media screen and (min-device-width: 768px) { /* PC */
+        @media screen and (min-width: 600px) { /* PC */
+            div {
+                font-size: 1.75rem;
+            }
         }
     </style>
     <script>

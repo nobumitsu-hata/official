@@ -6,7 +6,8 @@
     </div>
     <style>
         .wrapper {
-            margin-top: 25vh;
+            margin-top: 0px;
+            padding: 25% 5%;
             width: 100%;
             overflow: hidden;
         }
@@ -14,12 +15,19 @@
             margin: 4em 0 3em;
             padding-left: .2em;
             color: #56FBB7;
-            /*font-size: 16px;*/
-            font-size: 1rem;
-            font-family: 'Ropa Sans';
+            font-size: .875rem;
             letter-spacing: .2em;
             text-align: center;
-            line-height: 1;
+            line-height: 1.75;
+        }
+        @media screen and (min-width: 600px) { /* PC */
+            .wrapper {
+                margin-top: 30vh;
+                padding: 0;
+            }
+            .description {
+                font-size: 1rem;
+            }
         }
     </style>
     <script>

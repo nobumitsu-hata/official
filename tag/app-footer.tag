@@ -25,11 +25,11 @@
         a {
             margin: 0 1em;
             padding-left: .2em;
-            font-size: .875rem;
+            font-size: .75rem;
             letter-spacing: .2em;
             line-height: 1;
         }
-        .account::after {
+        .account::after,.email:after {
             display: block;
             background: #56FBB7;
             margin-top: 2px;
@@ -37,7 +37,7 @@
             height: 1px;
             content: '';
         }
-        .email:hover::after,.account:hover::after {
+        .account:hover::after,.email:hover::after {
             -webkit-animation-name: crossUnderline;
             animation-name: crossUnderline;
             -webkit-animation-duration: .4s;
@@ -56,15 +56,11 @@
         .email {
             display: inline-block;
             margin-top: 3em;
-            text-align: center;
         }
-        .email:after {
-            display: block;
-            background: #56FBB7;
-            margin-top: 2px;
-            width: 100%;
-            height: 1px;
-            content: '';
+        @media screen and (min-width: 600px) { /* PC */
+            a {
+                font-size: .875rem;
+            }
         }
     </style>
     <script></script>
