@@ -18,7 +18,7 @@
         <script src="<?php echo URL_THEME . '/tag/' . $value . '.tag?20170824'; ?>" type="riot/tag"></script>
     <?php } ?>
     <script>
-        riot.mount('app')
+        riot.mount('*')
     </script>
 </body>
 </html>
