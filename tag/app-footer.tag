@@ -1,26 +1,28 @@
 <app-footer>
-    <div>
+    <div class='accountWrap'>
         <a href="https://github.com/nobumitsu-hata" class='account'>Github</a>
         <a href="https://www.facebook.com/nobumitsu" class='account'>Facebook</a>
         <a href="https://twitter.com/ww_uktki" class='account'>Twitter</a>
     </div>
-    <a href='mailto:first1freedom@gmail.com' class='email'>
-        <span>E-mail me</span>
-    </a>
+    <div class='emailWrap'>
+        <a href='mailto:first1freedom@gmail.com' class='email'>E-mail me</a>
+    </div>
     <style>
         app-footer {
             display: block;
             width: 100%;
         }
-        div {
+        .accountWrap {
             display: flex;
             display: -webkit-box;
             flex-wrap: wrap;
             -webkit-box-pack: center;
             justify-content: center;
         }
-        a {
+        .account {
             display: block;
+        }
+        a {
             margin: 0 1em;
             padding-left: .2em;
             font-size: .875rem;
@@ -35,7 +37,7 @@
             height: 1px;
             content: '';
         }
-        span:hover::after,.account:hover::after {
+        .email:hover::after,.account:hover::after {
             -webkit-animation-name: crossUnderline;
             animation-name: crossUnderline;
             -webkit-animation-duration: .4s;
@@ -47,14 +49,16 @@
             -webkit-animation-timing-function: cubic-bezier(.215,.61,.355,1);
             animation-timing-function: cubic-bezier(.215,.61,.355,1);
         }
+        .emailWrap {
+            width: 100%;
+            text-align: center;
+        }
         .email {
+            display: inline-block;
             margin-top: 3em;
             text-align: center;
         }
-        span {
-            display: inline-block;
-        }
-        span:after {
+        .email:after {
             display: block;
             background: #56FBB7;
             margin-top: 2px;
