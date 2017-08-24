@@ -1,5 +1,5 @@
 <app>
-    <div class='wrapper'>
+    <div class='wrapper'riot-style='height: { wrapHei }'>
         <app-name></app-name>
         <div class='discription'>I am a front-end developer. It's my third year as a developer.</div>
         <app-footer></app-footer>
@@ -32,5 +32,9 @@
         }
     </style>
     <script>
+        var tag = this
+        tag.on('mount', function() {
+            tag.wrapHei = window.innerHeight
+        })
     </script>
 </app>
