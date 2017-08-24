@@ -32,8 +32,8 @@
             /* animation */
             -webkit-animation-name: nameAnim;
             animation-name: nameAnim;
-            -webkit-animation-duration: 4s;
-            animation-duration: 4s;
+            -webkit-animation-duration: 7s;
+            animation-duration: 7s;
             -webkit-animation-iteration-count: infinite;
             animation-iteration-count: infinite;
         }
