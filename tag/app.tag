@@ -6,6 +6,7 @@
     </div>
     <style>
         .wrapper {
+            position: absolute;
             margin-top: 0px;
             padding: 35% 5%;
             width: 100%;
