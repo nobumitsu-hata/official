@@ -38,5 +38,9 @@
             tag.wrapHei = window.innerHeight
             tag.update()
         })
+        var scrollOff = function(e){
+            e.preventDefault()
+        }
+        document.addEventListener('touchmove',scrollOff, false)
     </script>
 </app>
