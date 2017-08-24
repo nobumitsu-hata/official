@@ -139,3 +139,9 @@ body {
         transform:scale(1.5, 1.5);
     }
 }
+@font-face{
+    font-family:'Ropa Sans';
+    font-style:normal;
+    font-weight:400;
+    src:local('Ropa Sans Regular'),local('RopaSans-Regular'),url(https://fonts.gstatic.com/s/ropasans/v6/QnguTd82yEUxQZygH2gm8KCWcynf_cDxXwCLxiixG1c.ttf) format('truetype');
+}
