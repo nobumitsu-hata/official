@@ -23,7 +23,7 @@
     <!-- meta link -->
     <!-- <link rel="author" href="<?php echo $meta['google']['account']; ?>">
     <link rel="publisher" href="<?php echo $meta['google']['account']; ?>"> -->
-    <link rel="stylesheet" href="<?php echo URL . '/style.css'; ?>">
+    <link rel="stylesheet" href="<?php echo URL . '/css/style.css'; ?>">
     <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <script src="https://cdn.jsdelivr.net/riot/3.4.4/riot+compiler.min.js"></script>
     <script src="https://cdn.jsdelivr.net/riot-route/3.1.1/route.min.js"></script>
